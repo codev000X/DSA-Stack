@@ -3,6 +3,6 @@ class Stack:
         self.list = []
 
     def __str__(self):
-        self.list.reverse()
-        values = [str(x) for x in self.list.reverse()]
+        
+        values = [str(x) for x in reversed(self.list)]
         return "/n".join(values)
